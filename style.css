@@ -223,3 +223,13 @@
      border:1px solid black;
      border-collapse: collapse;
  }
+footer{
+    background: linear-gradient(to right, rgb(253, 190, 63), rgb(255, 252, 102));
+}
+ footer img{
+     width:40px;
+ }
+
+ .facebook{
+     width:28px
+ }
