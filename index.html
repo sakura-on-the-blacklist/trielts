@@ -1,60 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fontawesome.com/v5.15/icons/instagram?style=brands">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fontawesome.com/v5.15/icons/instagram?style=brands"
+    />
+  </head>
+  <body>
     <header>
-        <h1>LOGO</h1>
-        <input type="checkbox" class="nav-toggle" id="nav-toggle">
-        <div class="header"></div>
-        <nav>
-            <ul>
-
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-            </ul>
-        </nav>
-        <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+      <h1 class="logo">LOGO</h1>
+      <input type="checkbox" class="nav-toggle" id="nav-toggle" />
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About me</a></li>
+          <li><a href="#">Tips</a></li>
+          <li><a href="#">Contact me</a></li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
     </header>
-    <img src="1280px-IELTS_logo.svg.png" alt="" class="ielts">
-    <h3 class="listening">Listening</h3>
-    <h3 class="reading">Reading</h3>
-    <h3 class="writing">Writing</h3>
-    <h3 class="speaking">Speaking</h3>
-    <main>
+    <div class="hero">
+      <main>
+        <h2 class="title">
+          Practice IELTS in <br />
+          English & Japanese!
+        </h2>
+      </main>
+      <div class="ielts-container">
+        <img src="assets/1280px-IELTS_logo.svg.png" alt="" class="ielts" />
+      </div>
+    </div>
+    <div class="bubble">
+      <h3 class="listening">Listening</h3>
+      <h3 class="reading">Reading</h3>
+      <h3 class="writing">Writing</h3>
+      <h3 class="speaking">Speaking</h3>
+    </div>
 
-        <h2>Practice IELTS <br> in English & Japanese!</h2>
-    </main>
-    <p class="line"></p>
     <section class="intro">
-        <h1 class="intro-big">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti impedit explicabo quos adipisci distinctio tenetur ullam aliquam similique molestias fuga.</h1>
-        <h2 class="about">About me</h2>
-        <p class="introduction">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sequi dolores sit unde consequatur placeat, nisi ex porro  <a href="#" class='see-more'>see more</a><span> rem tenetur aut deserunt alias iure quas quo aliquam numquam quibusdam, veritatis modi similique illo? Voluptatibus cupiditate quam dolor delectus quae dignissimos provident maxime impedit velit perferendis, eum id molestias aut pariatur?</span></p>
-        <img src="IMG_2361.JPG" alt="">
+      <h1 class="intro-top">
+        IELTS 勉强 lakdjsflkjaslkajsdflkajsdflkj? <br /><span>
+          大丈夫！私lalallalalalaallalalalaalla。</span
+        >
+      </h1>
+      <h2 class="about">About me</h2>
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sequi
+        dolores sit unde consequatur placeat, nisi ex porro
+        <span class="moreText">
+          rem tenetur aut deserunt alias iure quas quo aliquam numquam
+          quibusdam, veritatis modi similique illo? Voluptatibus cupiditate quam
+          dolor delectus quae dignissimos provident maxime impedit velit
+          perferendis, eum id molestias aut pariatur?
+        </span>
+        <button class="read-more-btn">read more</button>
+      </p>
+      <div class="slider"></div>
     </section>
     <div class="tags">
-        <h1 class="tips">Tips for each section</h1>
-        <div class="btn">
+      <h1 class="tips">Tips for each section</h1>
+      <div class="btn">
         <a href="tips.html" target="blank" class="listen">Listening</a>
-        <a href="tips.html" class="read">Reading</a>
-        <a href="tips.html" class="write">Writing</a>
-        <a href="tips.html" class="speak">Speaking</a>
-    </div>
+        <a href="tips.html" target="blank" class="read">Reading</a>
+        <a href="tips.html" target="blank" class="write">Writing</a>
+        <a href="tips.html" target="blank" class="speak">Speaking</a>
+      </div>
     </div>
     <footer>
-        <h1 class="follow">Follow my SNS</h1>
-        <img src="instagram.svg" alt="">
-        <img src="facebook.svg" alt="" class='facebook'>
-        <h2 class="copyright">©︎Copyright TrIELTS</h2>
+      <h1 class="follow">Follow my SNS</h1>
+      <div class="sns">
+        <img src="assets/instagram.svg" alt="" />
+        <img src="assets/facebook.svg" alt="" class="facebook" />
+      </div>
+      <h2 class="copyright">©︎Copyright TrIELTS</h2>
     </footer>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
