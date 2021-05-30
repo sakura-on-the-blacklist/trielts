@@ -1,0 +1,1 @@
+let seeMore = document.querySelector

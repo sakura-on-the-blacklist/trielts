@@ -76,6 +76,7 @@
     background: linear-gradient(to right, rgb(253, 190, 63), rgb(255, 252, 102));
     width: 100%;
     left: 0;
+    z-index: 3;
   }
 
   nav ul {
@@ -180,4 +181,45 @@
 .introduction{
     margin-top:1em;
     margin-left:1em;
+    margin-bottom:1em;
 }
+
+.intro img{
+    height: 250px;
+    width:250px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.introduction span{
+    display:none;
+}
+
+
+ .tags{
+     display:flex;
+     flex-direction: column;
+ }
+
+ .btn{
+     display:flex;
+     flex-direction: column;
+     width:30%;
+
+ }
+
+ .tags a{
+     text-decoration: none;
+     background:rgba(152, 255, 83, 0.718);
+     color:rgb(105, 105, 7);
+     padding:2px 1em;
+     border-radius: 1em;
+     text-align: center;
+     margin-left:2em;
+     margin-bottom: 1em;
+ }
+
+ table, th, td{
+     border:1px solid black;
+     border-collapse: collapse;
+ }
