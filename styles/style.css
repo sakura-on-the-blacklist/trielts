@@ -120,29 +120,26 @@ main {
 .listenpop {
   position: absolute;
   bottom: 120px;
-  right: 80%;
-  animation-delay: 3s;
+
+  left: 5%;
 }
 
 .readpop {
   position: absolute;
   bottom: 120px;
-  right: 55%;
-  animation-delay: 0.5s;
+  left: 30%;
 }
 
 .writepop {
   position: absolute;
   bottom: 120px;
-  right: 25%;
-  animation-delay: 1s;
+  right: 30%;
 }
 
 .speakpop {
   position: absolute;
   bottom: 120px;
-  right: 1%;
-  animation-delay: 2s;
+  right: 5%;
 }
 
 .pop {
@@ -213,13 +210,23 @@ main {
   display: none;
 }
 
+.slider-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.invisible {
+  opacity: 0;
+  padding: 5em 2.5em;
+}
+
 .slider {
   background: url(../assets/1.JPG);
   background-repeat: no-repeat;
   background-size: contain;
   height: 250px;
   object-fit: cover;
-  margin-left: 30vw;
   animation: slide 20s infinite;
 }
 
@@ -363,22 +370,22 @@ footer img {
 
 @keyframes slide {
   25% {
-    background: url(../assets/1.JPG);
+    background: url(../assets/1.webp);
     background-repeat: no-repeat;
     background-size: contain;
   }
   50% {
-    background: url(../assets/2.jpg);
+    background: url(../assets/2.webp);
     background-repeat: no-repeat;
     background-size: contain;
   }
   75% {
-    background: url(../assets/3.jpg);
+    background: url(../assets/3.webp);
     background-repeat: no-repeat;
     background-size: contain;
   }
   100% {
-    background: url(../assets/4.png);
+    background: url(../assets/4.webp);
     background-repeat: no-repeat;
     background-size: contain;
   }
