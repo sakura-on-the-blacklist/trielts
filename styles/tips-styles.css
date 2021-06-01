@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
 
 *,
 *::before,
@@ -135,7 +136,8 @@ th,
 td {
   border: 1px solid black;
   border-collapse: collapse;
-  font-family: "Poppins", sans-serif;
+  font-family: "Kosugi Maru", sans-serif;
+  line-height: 1.2em;
   text-align: left;
 }
 td {
