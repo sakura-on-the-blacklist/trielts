@@ -22,11 +22,14 @@
   padding: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
   background-repeat: no-repeat;
   background: url(../assets/5.png);
+  margin: 0;
+  padding: 0;
 }
 
 /* nav */
@@ -121,19 +124,19 @@ main {
   position: absolute;
   bottom: 120px;
 
-  left: 5%;
+  left: 4%;
 }
 
 .readpop {
   position: absolute;
   bottom: 120px;
-  left: 30%;
+  left: 27%;
 }
 
 .writepop {
   position: absolute;
   bottom: 120px;
-  right: 30%;
+  right: 27%;
 }
 
 .speakpop {
@@ -191,15 +194,10 @@ main {
   box-shadow: none;
   border: none;
   font-size: 1em;
-  color: rgb(0, 38, 255);
-  border-bottom: 1px rgb(0, 38, 255) solid;
+  color: #c7002b;
+  border-bottom: 1px #c7002b solid;
   cursor: pointer;
   background: transparent;
-}
-
-.text button:hover {
-  color: #c7002b;
-  border-bottom: #c7002b solid 1px;
 }
 
 .text.show-more .moreText {
@@ -388,5 +386,115 @@ footer img {
     background: url(../assets/4.webp);
     background-repeat: no-repeat;
     background-size: contain;
+  }
+}
+
+/* computer */
+
+@media screen and (min-width: 800px) {
+  .nav-toggle-label {
+    display: none;
+  }
+  nav {
+    all: unset;
+    position: relative;
+    transform: scale(1, 1);
+    width: 100%;
+  }
+
+  nav a {
+    opacity: 1;
+  }
+
+  .nav-1 {
+    margin-left: 60%;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav li {
+    margin-left: 3em;
+  }
+
+  .nav-4 {
+    border: white 1px solid;
+    background: white;
+    border-radius: 1em;
+    padding: 0 1em;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-around;
+  }
+  .ielts {
+    width: 400px;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  .bubbles img {
+    width: 200px;
+  }
+
+  .about {
+    font-size: 3em;
+    text-align: left;
+    margin: 0;
+    margin-left: 21vh;
+  }
+
+  .about-description {
+    display: flex;
+    margin-left: 15vh;
+  }
+
+  .text {
+    width: 60%;
+    margin-right: 10%;
+  }
+
+  .invisible {
+    opacity: 0;
+    margin: 10em 5em;
+  }
+  .tags {
+  }
+
+  .tags a {
+    width: 15%;
+    padding: 0.6em 1.5em;
+  }
+  .tips {
+    font-size: 3em;
+    margin: 0;
+    margin-left: 18vh;
+  }
+
+  .btn {
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 29vh;
+  }
+
+  .intro-top {
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+    margin-left: 12vh;
+    text-align: left;
+  }
+
+  .intro-top span {
+    margin-left: 0;
   }
 }
