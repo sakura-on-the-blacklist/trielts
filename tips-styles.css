@@ -8,6 +8,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 header {
@@ -19,6 +20,19 @@ header {
 }
 
 /* nav */
+
+.reading {
+}
+
+.writing p,
+.writing li,
+.writing span {
+  background: rgba(0, 0, 255, 0.377);
+}
+
+.listening li {
+  background: rgba(255, 0, 0, 0.432);
+}
 
 .logo {
   padding: 0.5em 1.2em;
@@ -135,13 +149,13 @@ nav a {
 }
 
 /* tips */
-.everything{
+.everything {
   padding: 2em;
-  width: 100%;
-  border: 1px black solid;
+  width: 60%;
+  line-height: 2.5em;
 }
 
-.bitchy-css{
+.bitchy-css {
   font-size: 1em;
 }
 
