@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(to right, rgb(253, 190, 63), rgb(255, 252, 102));
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  position: relative;
+}
+
+/* nav */
+
+.logo {
+  padding: 0.5em 1.2em;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  background: linear-gradient(to right, rgb(253, 190, 63), rgb(255, 252, 102));
+  display: flex;
+  padding: 1em 3em;
+  font-family: "Poppins", sans-serif;
+  margin-top: 2em;
+}
+footer img {
+  width: 20px;
+  margin-left: 1em;
+}
+
+.follow {
+  font-size: 1.1em;
+}
+
+.copyright {
+  font-size: 1em;
+  position: absolute;
+  right: 5%;
+}
+
+.facebook {
+  width: 14px;
+}
+
+/* functionality */
+ul {
+  list-style: none;
+}
+
+nav {
+  position: absolute;
+  text-align: right;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+
+  background: linear-gradient(to right, rgb(253, 190, 63), rgb(255, 252, 102));
+  width: 100%;
+  left: 0;
+  z-index: 3;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-right: 1em;
+  margin-top: 1em;
+  font-family: "Poppins", sans-serif;
+}
+
+nav li {
+  margin-bottom: 1em;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
+
+.nav-toggle {
+  display: none;
+}
+.nav-toggle-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 1em;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  background: black;
+  height: 2px;
+  width: 2em;
+  border-radius: 2px;
+  position: relative;
+}
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: "";
+  position: absolute;
+}
+.nav-toggle-label span::before {
+  bottom: 7px;
+}
+.nav-toggle-label span::after {
+  top: 7px;
+}
+
+.nav-toggle:checked ~ nav {
+  transform: scale(1, 1);
+}
+
+.nav-toggle:checked ~ nav a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms;
+}
+
+/* tips */
+.everything{
+  padding: 2em;
+  width: 100%;
+  border: 1px black solid;
+}
+
+.bitchy-css{
+  font-size: 1em;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: "Kosugi Maru", sans-serif;
+  line-height: 1.2em;
+  text-align: left;
+}
+td {
+  padding: 0.5em 1em;
+}
+table {
+  padding: 0 2em;
+  width: 1200px;
+
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+th {
+  color: white;
+  background: #c7002b;
+
+  padding: 0 1em;
+}
+
+.short {
+  padding: 0;
+}
+
+span {
+  font-weight: bold;
+}
+
+.improve {
+  display: flex;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+}
+
+.improve:nth-child(1) {
+  background: #ccc;
+}
