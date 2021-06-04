@@ -6,61 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles/tips-styles.css" />
+    <link rel="stylesheet" href="styles/nav.css">
   </head>
   <body>
     <header>
-      <h1>LOGO</h1>
+      <h1 class="logo">LOGO</h1>
       <input type="checkbox" class="nav-toggle" id="nav-toggle" />
-      <div class="header"></div>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Home</a></li>
+          <li class="nav-1"><a href="index.html">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#tips">Tips</a></li>
+          <li><a href="3rd.html" target="_blank">My Experience</a></li>
+       
         </ul>
       </nav>
       <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
-    </header><br>
-    <div class="everything">
-      <div class="listen">
-        <h1>Listening</h1><br>
-        <p class="box">
-          <ol>
-            <li><span font-weight:bold;> 模試をとにかく解きまくる</span> - 繰り返し問題を解いてみることで、いつ、どんなタイミングで耳を研ぎ澄ませればいいのかわかってきます。模試試験では聞き取れなかったところは再生できます。<br>
-              (あ！ここ聞き取れなかった！ここが答えなのに...って思えた時にはリスニング高得点ゲット直前です！）</li><br>
-              <li><span font-weight:bold;> IELTS listening だけ聞き流しする</span></li><br>
-              <li><span font-weight:bold;>問題と空欄をよく読み取る。</span>-そこには “動詞”、 “形容詞”、 “名詞”、 “副詞”、もしくは “数字”が入るのか確認しよう。</li><br>
-              <li><span font-weight:bold;>誰が誰と、何を話しているのかしっかり頭に入れておく。</span>-それぞれのセクションの前に、 “Now, you will hear a dialogue between..”や、 “You will hear a lecture on…”など、パッセージが何を話していくのかを知ることができます。この情報はテストペーパーには書いていないのでしっかりと聞こう。</li><br>
-              <li><span font-weight:bold;>メモする</span>-時には、自分の中で多数の選択肢が生まれるかもしれません。そんな時にはメモを使って、正しい回答を逃さないように全てを書いておこう！（私は、メモ無しではListeningは解けません。）</li><br>
-              <li><span font-weight:bold;>なぜ英語が聞き取れないのか理解しよう</span>- 単語の意味がわかっていなかったり、発音が聞き取れなかったり、英語の理解が追いついていなかったり。自分の弱点も自分の武器に変えられるようにしよう！</li>
+    </header>
 
-          </ol>
+    <div class="everything">
+      <div class="listen" id="listening">
+        <h1 class="heading">Listening</h1><br>
+        <p class="box">
+         
+               <span> たくさん英文を読む </span>- 最初は自分が好きな本でもいいです！とにかく、英語で文章を読む練習をしましょう！ 慣れてきたら、興味のある分野のリサーチ記事なども読んでみよう！<br><br>
+            <span font-weight:bold;> 模試をとにかく解きまくる</span> - 繰り返し問題を解いてみることで、いつ、どんなタイミングで耳を研ぎ澄ませればいいのかわかってきます。模試試験では聞き取れなかったところは再生できます。<br>
+              (あ！ここ聞き取れなかった！ここが答えなのに...って思えた時にはリスニング高得点ゲット直前です！）<br><br>
+              <span font-weight:bold;> IELTS listening だけ聞き流しする</span><br>
+              <span font-weight:bold;>問題と空欄をよく読み取る。</span>-そこには “動詞”、 “形容詞”、 “名詞”、 “副詞”、もしくは “数字”が入るのか確認しよう。<br><br>
+              <span font-weight:bold;>誰が誰と、何を話しているのかしっかり頭に入れておく。</span>-それぞれのセクションの前に、 “Now, you will hear a dialogue between..”や、 “You will hear a lecture on…”など、パッセージが何を話していくのかを知ることができます。この情報はテストペーパーには書いていないのでしっかりと聞こう。<br><br>
+              <span font-weight:bold;>メモする</span>-時には、自分の中で多数の選択肢が生まれるかもしれません。そんな時にはメモを使って、正しい回答を逃さないように全てを書いておこう！（私は、メモ無しではListeningは解けません。）<br><br>
+              <span font-weight:bold;>なぜ英語が聞き取れないのか理解しよう</span>- 単語の意味がわかっていなかったり、発音が聞き取れなかったり、英語の理解が追いついていなかったり。自分の弱点も自分の武器に変えられるようにしよう！
+
+          
         </p>
         <br>
-          <div class="reading">
-            <h1>Reading</h1><br>
+          <div class="reading" id="reading">
+            <h1 class="heading">Reading</h1><br>
             <p class="box">
-              <ol>
-                <li>たくさん英文を読む- 最初は自分が好きな本でもいいです！とにかく、英語で文章を読む練習をしましょう！ 慣れてきたら、興味のある分野のリサーチ記事なども読んでみよう！</li><br>
-
-                  <li>まず、大門１に目を通し、大事そうなキーワードに線を引く。-大体最初の質問では、1~4段落内（たまに全て読み通さなければならない）で見つけることができるので、全てのパッセージを読む前に、最初の質問を理解しましょう。</li><br>
-
-                  <li>文章内のキーワード、質問で見つけたワードの類語に線を引く。-これは、後の大門を解くときにとても役立ちます。特に、人物、出来事、もの、いつ、どれくらいと聞かれやすいものを予想しながら線を引いていこう</li><br>
-
-                  <li>Listening と違って、回答は直接用紙に記入してください！-最後に写す時間はありません。
-                </li>
-              </ol>
+          
+                  まず、大門１に目を通し、大事そうなキーワードに線を引く。-大体最初の質問では、1~4段落内（たまに全て読み通さなければならない）で見つけることができるので、全てのパッセージを読む前に、最初の質問を理解しましょう。<br><br>
+                  文章内のキーワード、質問で見つけたワードの類語に線を引く。-これは、後の大門を解くときにとても役立ちます。特に、人物、出来事、もの、いつ、どれくらいと聞かれやすいものを予想しながら線を引いていこう<br><br>
+                 Listening と違って、回答は直接用紙に記入してください！-最後に写す時間はありません。
+               
             </p>
           </div> <br><br>
-          <div class="writiing">
-            <h1>Writing</h1><br><br>
+          <div class="writing" id="writing">
+            <h1 class="heading">Writing</h1><br><br>
             <p class="box">
               <span font-weight:bold;>Writing Task 1</span>
               図、表、グラフを見て、主な特徴を挙げたり、比較したりする。<br>
 
               Task 1では<span font-weight:bold;>一人称視点を絶対に使いません。</span>
-               “I think”, “In my opinion”というような自分が考えることを書くのは<span font-weight:bold;>Task 2です！</span>
+               “I think”, “In my opinion”というような自分が考えることを書くのは<span  ;>Task 2です！</span>
               とにかく、視覚化してあるものを、うまく言語化するのがここでのポイント！<br><br>
 
               文字数は150文字以上で、上限は特に決まってないです。ですが、誰が読んでも説明が読み取れるような、簡潔な文が書けると高得点が取れます。<br><br>
@@ -92,17 +90,17 @@
 
 
                   <span font-weight:bold;>〈種類〉</span>
-              <ul>
-              <li><span font-weight:bold;> Opinion questions </span>(to what extent do you agree?)（自分の意見を述べるエッセイ）-書いてあるステートメントに“めっちゃ共感！共感しかできない！”、“いや、絶対違うっしょ。まじで論破してやるから見とけ。”、または“んー、共感するところもあるけど、ここは反対かな..” など、Agree/Disagree questionsに似ていますが、このタイプのエッセイは、“どっちも大切”っていう選択肢が増やされます。</li><br><br>
+              
+              <span font-weight:bold;> Opinion questions </span>(to what extent do you agree?)（自分の意見を述べるエッセイ）-書いてあるステートメントに“めっちゃ共感！共感しかできない！”、“いや、絶対違うっしょ。まじで論破してやるから見とけ。”、または“んー、共感するところもあるけど、ここは反対かな..” など、Agree/Disagree questionsに似ていますが、このタイプのエッセイは、“どっちも大切”っていう選択肢が増やされます。</li><br><br>
 
-              <li><span font-weight:bold;>Discussion essay questions</span> (二つの意見を比較し、説明+自分の意見) </li><br><br>
+              <span font-weight:bold;>Discussion essay questions</span> (二つの意見を比較し、説明+自分の意見) </li><br><br>
 
-              <li><span font-weight:bold;>Solution essay questions</span> (原因と解決策を述べる）</li><br><br>
+              <span font-weight:bold;>Solution essay questions</span> (原因と解決策を述べる）</li><br><br>
 
-              <li><span font-weight:bold;></span>Direct question essay titles（とにかくWhyに答える問題）-一つの意見を一貫性を保ちながら表現する。たくさん意見は言わなくていい。</li><br><br>
+             <span font-weight:bold;></span>Direct question essay titles（とにかくWhyに答える問題）-一つの意見を一貫性を保ちながら表現する。たくさん意見は言わなくていい。</li><br><br>
 
-              <li><span font-weight:bold;>Advantages/ Disadvantages essay questions</span> 決められた状況の利点と欠点を述べる）-質問をしっかり読んで、AdvantageS/DisadvantageSと複数形で書かれていたら、二つ以上書き出さなければなりません。</li><br><br>
-              </ul>
+              <span font-weight:bold;>Advantages/ Disadvantages essay questions</span> 決められた状況の利点と欠点を述べる）-質問をしっかり読んで、AdvantageS/DisadvantageSと複数形で書かれていたら、二つ以上書き出さなければなりません。</li><br><br>
+              
 
               <span font-weight:bold;>IELTSライティング採点基準：Task1 </span>
               <br>
@@ -121,9 +119,9 @@
             </p>
           </div> <br><br>
 
-          <div class="speaking">
-            <h1>Speaking</h1><br><br>
-            <h2 class="bitchy-css" style="background-color: green;">
+          <div class="speaking" id="speaking">
+            <h1 class="heading">Speaking</h1><br><br>
+            <p class="box">
               15分間のテストで、三つのパートに分かれています。<br><br>
               <span font-weight:bold;>パート１</span>- （4-5分)<span font-weight:bold;>自己紹介と生活に関する質問</span> <br><br>
               パスポートと照らし合わせて、本人確認をします。<span font-weight:bold;>家族構成、勉強、趣味、職種、好きな食べ物</span>など一般的なトピックについて試験管から聞かれます。<br>ここのパートは試験管があなたの緊張を解いてくれると言われていますが、私の試験管はとても厳しく、カジュアルに話そうと心掛けたら「やめて。」と止められました笑 <br><br>
@@ -148,7 +146,7 @@
              試験管は、あなたのspeaking score基準を<span font-weight:bold;>Part1</span>で決めます。<br>
              最初の点数が低かった場合、そこからの底上げはとても難しいようです。なので、<span font-weight:bold;>一番最初から飛ばしていきましょう！</span><br>
 
-             あとは、<a href="https://atsueigo.com/ieltsspeakingquestions/" target="_blank">こちら</a>のウェブサイトから<span font-weight:bold;>110のIELTS質問</span>がぎっしり詰まっている最強のお供がいるので、これで自分の質問への答え方のバラエティを増やしていきましょう。<br> <br>
+             あとは、こちら</a>のウェブサイトから<span font-weight:bold;>110のIELTS質問</span>がぎっしり詰まっている最強のお供がいるので、これで自分の質問への答え方のバラエティを増やしていきましょう。<br> <br>
 
 
 
@@ -156,12 +154,12 @@
              メモは日本語でも英語でも、一番わかりやすい言語で！<br>
              とにかく<span font-weight:bold;>1分</span>しか準備時間がないので、言わなければならないキーワードだけを書き残すのが良いでしょう！<br>時間との勝負！<br><br>
 
-             <ul>
-              <li>これからあなたが何について話すのかを提示する（イントロ) :質問を言い換えて言うだけ。</li><br>
-              <li> 最初の4問について40秒ほど喋る。</li><br>
-              <li>
+            
+              これからあなたが何について話すのかを提示する（イントロ) :質問を言い換えて言うだけ。</li><br>
+             最初の4問について40秒ほど喋る。</li><br>
+             
               最後のなぜの答えに1分かけて喋る。（全てを<span font-weight:bold;>お金、健康、時間に関連づけて書くと書きやすいらしい！</span>）</li><br><br>
-             </ul>
+             
              <span font-weight:bold;>Part3 Tips! </span><br><br>
              Speakingはとにかく <span font-weight:bold;>瞬発力</span>が必要です。<br>日頃から、 <span font-weight:bold;>Why? How?</span>を考えるように生活してみてください。<br>何かを聞かれた瞬間、ぱっ！と自分の中で一枚のイメージを描くことができるようになったらこっちのもんです！<br><br>
              トピックについてあまり知識がないのなら、 <span font-weight:bold;><br>“I am actually not sure about that but”や、 “I am not knowledgeable about this topic but” </span><br>など本当はわからないけど...こうなんじゃない？とできる限り、 <span font-weight:bold;>自分のイメージを言語化</span>できるように頑張りましょう！<br><br>
@@ -303,7 +301,7 @@
             </td>
             <td class="improve">
               最初はゆっくり、自分が内容を理解できるまで読むことがゴール！どんどん読んでいくうちに、スピードはついてくるよ！
-              <br /><br /><br /><br /><br /><br /><br />もし、イギリス英語を聞き取るのに慣れていなかったら、毎日でも<a href="https://premierskillsenglish.britishcouncil.org/" target="_blank">Podcast</a>を聞いてみよう！
+              <br /><br /><br /><br /><br /><br /><br />もし、イギリス英語を聞き取るのに慣れていなかったら、毎日でも Podcast を聞いてみよう！
 
               <br /><br /><br /><br /><br /><br />
               書き終わった後に全てを一度見直して、どこに何が足りていないかをしっかりチェックする。時間が足りなくても気にしない。（練習中は）
@@ -437,7 +435,7 @@
             <td class="improve">
               単語を思いっきり頭に入れる！ 頑張って洋画を英語で見る！
               自分が好きな英語フレーズを見つける！
-              YouTubeで<a href="https://www.youtube.com/user/hapaeikaiwa" target="_blank">Hapa英会話</a>か、<a href="https://www.youtube.com/user/cyoshida1231" target="_blank">Bilingirlチカ</a>を見る！
+              YouTubeで Hapa英会話か、Bilingirlチカ</a>を見る！
 
 
             </td>
