@@ -98,4 +98,21 @@ body {
   .r {
     margin-left: 68%;
   }
+
+  .circle:not(.z) {
+    margin-top: 3em;
+  }
+
+  .circle::before {
+    content: "";
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    background-color: black;
+    border-radius: 50%;
+    border: 4px white solid;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
 }
