@@ -25,9 +25,18 @@
   scroll-behavior: smooth;
 }
 
+nav a:hover {
+  color: white;
+}
+
+.nav-4:hover {
+  background: black;
+  border: 1px black solid;
+}
+
 body {
   background-repeat: no-repeat;
-  background: url(../assets/5.png);
+  background: url(../assets/5.jpg);
   margin: 0;
   padding: 0;
 }
@@ -214,14 +223,14 @@ main {
 
 .invisible {
   opacity: 0;
-  padding: 5em 2.5em;
+  padding: 5em 4em;
 }
 
 .slider {
   background: url(../assets/1.JPG);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 250px;
+  height: 300px;
   object-fit: cover;
   animation: slide 20s infinite;
 }

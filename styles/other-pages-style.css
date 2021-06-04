@@ -77,8 +77,8 @@ body {
 .e::after {
   content: "";
   position: absolute;
-  background-color: darkcyan;
-  height: 0vh;
+  background-color: white;
+  height: 50vh;
   width: 4px;
 
   z-index: -1;
@@ -114,5 +114,9 @@ body {
     left: 0;
     right: 0;
     margin: 0 auto;
+  }
+
+  .nav-toggle-label {
+    display: none;
   }
 }
