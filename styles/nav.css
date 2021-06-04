@@ -23,7 +23,12 @@ header {
 }
 
 .logo {
-  padding: 0.5em 1.2em;
+  padding: 0 1.1em;
+  padding-top: 0.2em;
+}
+
+.logo img {
+  width: 65px;
 }
 
 nav {

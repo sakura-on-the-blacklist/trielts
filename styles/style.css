@@ -34,6 +34,14 @@ nav a:hover {
   border: 1px black solid;
 }
 
+.logo {
+  padding: 0 1.1em;
+  padding-top: 0.2em;
+}
+
+.logo img {
+  width: 65px;
+}
 body {
   background-repeat: no-repeat;
   background: url(../assets/5.jpg);
