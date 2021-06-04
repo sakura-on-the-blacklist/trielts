@@ -372,22 +372,22 @@ footer img {
 
 @keyframes slide {
   25% {
-    background: url(../assets/1.webp);
+    background: url(../assets/1.jpg);
     background-repeat: no-repeat;
     background-size: contain;
   }
   50% {
-    background: url(../assets/2.webp);
+    background: url(../assets/2.jpg);
     background-repeat: no-repeat;
     background-size: contain;
   }
   75% {
-    background: url(../assets/3.webp);
+    background: url(../assets/3.jpg);
     background-repeat: no-repeat;
     background-size: contain;
   }
   100% {
-    background: url(../assets/4.webp);
+    background: url(../assets/4.jpg);
     background-repeat: no-repeat;
     background-size: contain;
   }
