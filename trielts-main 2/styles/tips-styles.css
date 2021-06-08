@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+
+  padding: 0;
+}
+header {
+  width: 100%;
+}
+body {
+  background: url(../assets/5.jpg);
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: "Kosugi Maru", sans-serif;
+  line-height: 1.2em;
+  text-align: left;
+}
+td {
+  padding: 0.5em 1em;
+}
+table {
+  padding: 0 2em;
+  width: 1200px;
+
+  margin: 0 auto;
+  margin-top: 6em;
+}
+
+th {
+  color: white;
+  background: #c7002b;
+
+  padding: 0.3em 2em;
+}
+
+.short {
+  padding: 0;
+}
+
+span {
+  font-weight: bold;
+}
+
+.improve {
+  display: flex;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+}
+
+.improve:nth-child(1) {
+  background: #ccc;
+}
+
+.everything {
+}
+p {
+  font-family: "Kosugi Maru", sans-serif;
+  margin: 0 2em;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  background: rgba(255, 0, 0, 0.397);
+  width: 70%;
+  padding: 1em 1em;
+}
+
+.reading p {
+  background: rgba(0, 81, 255, 0.411);
+}
+
+.heading {
+  margin: 0 1em;
+}
+
+.writing p {
+  background: rgba(0, 255, 179, 0.411);
+}
+
+.speaking p {
+  background: rgba(255, 238, 0, 0.438);
+}
+
+@media screen and (max-width: 1000px) {
+  p {
+    width: 100%;
+  }
+}
